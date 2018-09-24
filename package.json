@@ -1,0 +1,45 @@
+{
+  "name": "table-editor",
+  "version": "0.1.0",
+  "description": "Table editor on React",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LadnovSasha/table-editor.git"
+  },
+  "keywords": [
+    "table",
+    "excel",
+    "editor"
+  ],
+  "author": "oladnov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LadnovSasha/table-editor/issues"
+  },
+  "homepage": "https://github.com/LadnovSasha/table-editor#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.6.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
