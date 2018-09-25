@@ -1,8 +1,15 @@
 {
   "parser": "babel-eslint",
+  "extends": "airbnb",
+  "env": {
+    "browser": true
+  },
   "plugins": [
-    "react"
+    "react",
+    "jsx-a11y",
+    "import"
   ],
   "rules": {
+    "no-plusplus": [2, { "allowForLoopAfterthoughts": true }]
   }
 }
